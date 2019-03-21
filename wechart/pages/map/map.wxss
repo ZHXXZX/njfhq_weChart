@@ -1,0 +1,4 @@
+/* pages/map/map.wxss */
+map{ margin-top: 80rpx;}
+.con{ text-align: center; font-size: 34rpx; color: #333;}
+.wrap{ padding: 30rpx 0 0;}

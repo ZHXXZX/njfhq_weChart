@@ -1,0 +1,4 @@
+/**app.wxss**/
+page{ background-color: #f7f7f7;}
+image{ max-width: 100%; vertical-align: middle;}
+rich-text{ text-indent: 2em;}

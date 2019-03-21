@@ -1,0 +1,37 @@
+<!--pages/enter/enter.wxml-->
+<image class='ban' src='/images/imgs/pic_29.jpg'></image>
+<view class='con'>
+  
+  <view class='list'>
+    <view><text class='red'>*</text>姓名：</view>
+    <input class='formBox' placeholder='请输入您的姓名' value="{{once}}" />
+  </view>
+  <view class='list'>
+    <view><text class='red'>*</text>联系电话：</view>
+    <input class='formBox' type='number' maxlength='11' placeholder='请输入您的联系电话' value="{{num}}" />
+  </view>
+  <view class='list'>
+    <view><text class='red'>*</text>预约参观日期：</view>
+    <picker
+      class='formBox'
+      mode="date"
+      value="{{date}}"
+      start="2015-09-01"
+      end="2217-09-01"
+      bindchange="bindDateChange"
+    >
+      <view class="picker">
+        {{date}}
+      </view>
+    </picker>
+  </view>
+  <view class='list'>
+    <view><text class='red'>*</text>项目名称：</view>
+    <input class='formBox' placeholder='请输入您的项目名称' value="{{num}}" />
+  </view>
+  <view class='list listOther'>
+    <view><text class='red'>*</text>入孵要求：</view>
+    <textarea placeholder='请输入您的入孵要求' value="{{num}}" ></textarea>
+  </view>
+  <button class='submit'>提交</button>
+</view>

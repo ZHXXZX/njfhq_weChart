@@ -1,0 +1,8 @@
+<!--pages/component/list/list.wxml-->
+<navigator url='/pages/detail/detail?id={{item.id}}' wx:for="{{news}}" wx:key="{{index}}" class='list' hover-class='none'>
+  <image src='{{item.img}}' mode='widthFix' class='img'></image>
+  <view class='text'>
+    <view class='tit'>{{item.title}}</view>
+    <view class='txt'>{{item.text}}</view>
+  </view>
+</navigator>

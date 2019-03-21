@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "list":"/pages/component/list/list"
+  }
+}

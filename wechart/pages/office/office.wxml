@@ -1,0 +1,4 @@
+<!--pages/office/office.wxml-->
+<view class='con'>
+  <image src='{{item}}' wx:key="{{index}}" wx:for="{{showData}}" mode='widthFix' class='banImg'></image>
+</view>

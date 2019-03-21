@@ -1,0 +1,15 @@
+/* pages/activity/activity.wxss */
+swiper{ height: 500rpx;}
+.item image{ width: 100%; position: absolute; left: 0; top: 0;}
+.item{ position: relative; display: flex; justify-content: center; align-items: flex-end;}
+.item view{ position: relative; z-index: 2; color: #fff; background-color: rgba(0,0,0,.5); font-size: 24rpx; width: 100%; padding: 20rpx;}
+
+.nav{ display: flex; text-align: center; justify-content: space-between; align-items: center; color: #333; font-size: 24rpx; padding: 20rpx 40rpx; background-color: #fff; margin-bottom: 20rpx;}
+.nav image{ width: 85rpx;}
+
+.tit{ border-left: 4rpx solid #ed6d4c; font-size: 36rpx; color: #333; padding: 0 20rpx; margin: 40rpx 0;}
+
+.list{ background: #fff; padding-bottom: 20rpx; margin-bottom: 20rpx; position: relative; font-size: 24rpx; color: #333;}
+.list image{ width: 100%;}
+.tips{ position: absolute; right: 0; top: 0; width: 80rpx; height: 40rpx; background-color: #ed6d4c; color: #fff; text-align: center;}
+.text{ padding: 10rpx 40rpx 0;}

@@ -1,0 +1,11 @@
+<!--pages/detail/detail.wxml-->
+<view class='con'>
+  <image wx:if="{{dataShow.url}}" src='{{dataShow.url}}' mode='widthFix' class='banImg'></image>
+  <view class='banText'>
+    {{dataShow.tit}}
+  </view>
+  <view class='text' wx:for="{{dataShow.desc}}" wx:key="{{index}}">
+    <rich-text wx:if="{{item.type==1}}" nodes="{{item.str}}"></rich-text>
+    <view><image wx:if="{{item.type==2}}" src='{{item.str}}' style='width:{{item.wid}}' mode='widthFix'></image></view>
+  </view>
+</view>

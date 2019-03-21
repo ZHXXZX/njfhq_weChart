@@ -1,0 +1,8 @@
+<!--pages/tutor/tutor.wxml-->
+<view class='con'>
+  <image src='{{showData.url}}' mode='widthFix' class='banImg'></image>
+  <view class='banText'>
+    {{showData.name}}
+  </view>
+  <view class='text'><rich-text  nodes="{{showData.desc}}"></rich-text></view>
+</view>

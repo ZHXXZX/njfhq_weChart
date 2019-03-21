@@ -1,0 +1,3 @@
+/* pages/activityDetail/activityDetail.wxss */
+@import "../detail/detail.wxss";
+.text>view{ text-align: center;}

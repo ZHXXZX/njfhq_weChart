@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/introduce/introduce",
+    "pages/server/server",
+    "pages/loan/loan",
+    "pages/guide/guide",
+    "pages/activity/activity",
+    "pages/enter/enter",
+    "pages/office/office",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/concat/concat",
+    "pages/will/will",
+    "pages/map/map",
+    "pages/serverDetail/serverDetail",
+    "pages/loanDetail/loanDetail",
+    "pages/signUp/signUp",
+    "pages/notice/notice",
+    "pages/platform/platform",
+    "pages/tutor/tutor",
+    "pages/willDetail/willDetail",
+    "pages/activityDetail/activityDetail"
+  ],
+  "tabBar": {
+    "selectedColor": "#6caac8",
+    "color": "#000",
+    "list": [
+      {
+        "iconPath": "/images/icons/index_0.png",
+        "selectedIconPath": "/images/icons/index_1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/images/icons/menu_0.png",
+        "selectedIconPath": "/images/icons/menu_1.png",
+        "pagePath": "pages/will/will",
+        "text": "预约"
+      },
+      {
+        "iconPath": "/images/icons/car_0.png",
+        "selectedIconPath": "/images/icons/car_1.png",
+        "pagePath": "pages/concat/concat",
+        "text": "联系我们"
+      },
+      {
+        "iconPath": "/images/icons/user_0.png",
+        "selectedIconPath": "/images/icons/user_1.png",
+        "pagePath": "pages/map/map",
+        "text": "导航"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,32 @@
+<navigator url="/pages/introduce/introduce" class='ban'>
+  <image src='/images/icons/ban.jpg' mode='widthFix' class='banImg'></image>
+  <view class='banText'>
+    欢迎优质企业入驻孵化器进行孵化
+  </view>
+</navigator>
+
+<view class='nav'>
+  <navigator url='{{item.url}}' wx:for="{{nav}}" wx:key="{{index}}" hover-class='none'>
+    <image src='{{item.img}}' mode='widthFix'></image>
+    <view>{{item.text}}</view>
+  </navigator>
+</view>
+
+<view class='region'>
+  <navigator url='/pages/office/office?id=1'>
+    <image src='/images/imgs/pic_17.jpg' mode='widthFix'></image>
+    <view>办公区域</view>
+  </navigator>
+  <navigator url='/pages/office/office?id=2'>
+    <image src='/images/imgs/pic_24.jpg' mode='widthFix'></image>
+    <view>园区多功能区域</view>
+  </navigator>
+</view>
+
+<view class='lists'>
+  <view class='listTit'>
+    <view>园区动态</view>
+    <navigator url='/pages/list/list'>查看更多</navigator>
+  </view>
+  <list news="{{news}}"></list>
+</view>

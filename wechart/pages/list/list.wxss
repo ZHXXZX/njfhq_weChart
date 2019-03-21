@@ -1,0 +1,4 @@
+/* pages/list/list.wxss */
+.lists{background-color: #fff;}
+.listTit{ display: flex; justify-content: space-between; font-size: 28rpx; align-items: center; padding: 30rpx 20rpx; border-bottom: 1rpx solid #eee; color: #6caac8;}
+.listTit navigator{ color: #333; border: 1rpx solid #eee; border-radius: 20rpx; height: 40rpx; line-height: 40rpx; font-size: 24rpx; padding: 0 20rpx;}

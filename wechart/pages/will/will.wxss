@@ -1,0 +1,5 @@
+/* pages/will/will.wxss */
+.list{ display: flex; justify-content: center; align-content: center; position: relative; margin-bottom: 20rpx; color: #f00; font-size: 28rpx; height: 500rpx; width: 100%; overflow: hidden;}
+.list image{ width: 100%; position: absolute; left: 0; top: 0;}
+.list >view{ position: relative;z-index: 2; text-align: center; display: flex; justify-content: center; align-items: center;}
+.name{ font-size: 40rpx; font-weight: bold; margin-bottom: 50rpx;}

@@ -1,0 +1,2 @@
+/* pages/notice/notice.wxss */
+.not{ display: flex; justify-content: center; align-items: center; height: 100vh;}

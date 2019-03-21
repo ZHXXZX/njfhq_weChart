@@ -1,0 +1,8 @@
+<!--pages/introduce/introduce.wxml-->
+<view class='con'>
+  <image src='/images/icons/ban.jpg' mode='widthFix' class='banImg'></image>
+  <view class='banText'>
+    欢迎优质企业入驻孵化器进行孵化
+  </view>
+  <view class='text'><rich-text  nodes="{{nodes}}"></rich-text></view>
+</view>

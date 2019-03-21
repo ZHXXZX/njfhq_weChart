@@ -1,0 +1,21 @@
+<!--pages/signUp/signUp.wxml-->
+<image class='ban' src='/images/imgs/pic_07.jpg'></image>
+<view class='con'>
+  <view class='list'>
+    <view>选择活动：</view>
+    <picker class='formBox' bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+        {{array[index]}}
+      </view>
+    </picker>
+  </view>
+  <view class='list'>
+    <view>参与单位：</view>
+    <input class='formBox' placeholder='请输入您的单位' value="{{once}}" />
+  </view>
+  <view class='list'>
+    <view>联系电话：</view>
+    <input class='formBox' type='number' maxlength='11' placeholder='请输入您的联系电话' value="{{num}}" />
+  </view>
+  <button class='submit'>提交</button>
+</view>

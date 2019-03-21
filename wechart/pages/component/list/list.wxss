@@ -1,0 +1,6 @@
+/* pages/component/list/list.wxss */
+.list{ display: flex; justify-content: space-between; align-items: flex-start; padding: 40rpx 20rpx;border-bottom: 1rpx solid #eee;}
+.img{ width: 140rpx;}
+.text{ width: 530rpx;}
+.tit{ font-size: 28rpx; width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.txt{ margin-top:10rpx; line-height: 36rpx; font-size: 24rpx;}

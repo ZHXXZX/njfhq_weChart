@@ -1,0 +1,20 @@
+<!--pages/loan/loan.wxml-->
+<view class='filterBox'>
+  <view class='wrap'>
+    <view class='tabBox'>
+      <view class="{{idx==index?'now':''}}" wx:for="{{arr}}" wx:key="{{index}}" bindtap="tabFn" data-idx="{{index}}" data-type="{{item.type}}">{{item.name}}</view>
+    </view>
+  </view>
+  <!-- <view class='more'></view> -->
+</view>
+
+<view class='region'>
+  <navigator url='/pages/loanDetail/loanDetail?id=1'>
+    <image src='/images/imgs/pic_06.jpg' mode='widthFix'></image>
+    <view>园保贷</view>
+  </navigator>
+  <navigator url='/pages/loanDetail/loanDetail?id=2'>
+    <image src='/images/imgs/pic_07.jpg' mode='widthFix'></image>
+    <view>入保贷</view>
+  </navigator>
+</view>

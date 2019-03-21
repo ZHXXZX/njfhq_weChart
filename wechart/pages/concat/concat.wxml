@@ -1,0 +1,24 @@
+<!--pages/concat/concat.wxml-->
+<image src='/images/icons/ban.jpg' mode='widthFix' class='ban'></image>
+<view class='con'>
+  <view class='wrap'>内江市东兴区科技孵化器</view>
+  <view class='wrap'>
+    <view>联系人</view>
+    <view>唐小姐</view>
+  </view>
+  <view class='wrap'>
+    <view>联系电话</view>
+    <view bindtap='call' data-num="0832-8195557">0832-8195557</view>
+  </view>
+  <view class='wrap'>
+    <view>地址</view>
+    <view>内江市东兴区汉安大道东段20号4楼</view>
+  </view>
+  <view class='wrap'>
+    <view>网址</view>
+    <view>www.njdxfhq.com</view>
+  </view>
+  <view class='wrap'>
+    <image src='/images/imgs/pic_15.jpg' mode='widthFix' class='pic_15'></image>
+  </view>
+</view>

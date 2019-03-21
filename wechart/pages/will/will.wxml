@@ -1,0 +1,13 @@
+<!--pages/will/will.wxml-->
+<view class='lists'>
+  <navigator class='list' wx:for="{{list}}" wx:key="{{index}}" url='/pages/willDetail/willDetail?id={{item.id}}'>
+    <image src='{{item.img}}' mode='widthFix'></image>
+    <view>
+      <view>
+        <view class='name'>{{item.name}}预定</view>
+        <view class='text'>{{item.text}}</view>
+      </view>
+      
+    </view>
+  </navigator>
+</view>

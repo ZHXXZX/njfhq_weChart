@@ -1,0 +1,12 @@
+/* pages/server/server.wxss */
+.filterBox{ background-color: #fff; display: flex; justify-content: space-between; align-items: center; padding: 20rpx 0 0;}
+.wrap{ width: 100%;}
+.tabBox{ display: flex; justify-content: flex-start; align-items: center; font-size: 24rpx; color: #333; overflow-x: scroll;}
+.tabBox view{ margin-right: 20rpx; white-space: nowrap; padding: 0 20rpx 20rpx; border-bottom: 4rpx solid transparent;}
+.tabBox view.now{ color: #e9c639; border-color: #e9c639;}
+/* .more{ display: flex; justify-content: center; align-items: center; width: 60rpx; height: 40rpx; margin-top: -10rpx; background-color: #e9c639;} */
+.lists{ margin-top: 20rpx; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;}
+.list{ width: 360rpx; background-color: #fff; text-align: center; margin-bottom: 30rpx; padding: 40rpx 0;}
+.img{ width: 99rpx;}
+.name{ font-size: 24rpx; margin-top: 10rpx;}
+.price{ color: #da686c; font-size: 24rpx; margin-top: 20rpx;}

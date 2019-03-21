@@ -1,0 +1,26 @@
+<!--pages/activity/activity.wxml-->
+<swiper indicator-dots="true" autoplay="true" interval="3000" circular="true">
+  <swiper-item class="item" wx:for="{{list}}" wx:key="{{index}}">
+    <image src='{{item.img}}' mode='widthFix'></image>
+    <view class='text'>{{item.text}}</view>
+  </swiper-item>
+</swiper>
+<view class='nav'>
+  <navigator url='/pages/signUp/signUp'>
+    <image src='/images/icons/icon_13.png' mode='widthFix'></image>
+    <view>活动报名</view>
+  </navigator>
+  <navigator url='/pages/notice/notice'>
+    <image src='/images/icons/icon_14.png' mode='widthFix'></image>
+    <view>活动预告</view>
+  </navigator>
+</view>
+
+<view class='activity'>
+  <view class='tit'>最新活动</view>
+  <view class='list' wx:for="{{activity}}" wx:key="{{index}}" data-id="{{item.id}}" data-type="{{item.type}}" bindtap='navigatorFn'>
+    <image src='{{item.img}}' mode='widthFix'></image>
+    <view class='text'>{{item.text}}</view>
+    <view class='tips'>{{item.type==1?"进行中":""}}{{item.type==2?"报名中":""}}{{item.type==3?"已结束":""}}</view>
+  </view>
+</view>

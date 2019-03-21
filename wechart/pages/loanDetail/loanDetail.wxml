@@ -1,0 +1,8 @@
+<!--pages/loanDetail/loanDetail.wxml-->
+<view class='con'>
+  <image src='{{img}}' mode='widthFix' class='banImg'></image>
+  <view class='banText'>
+    {{tit}}
+  </view>
+  <view class='text'><rich-text  nodes="{{nodes}}"></rich-text></view>
+</view>

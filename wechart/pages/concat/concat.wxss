@@ -1,0 +1,5 @@
+/* pages/concat/concat.wxss */
+.ban{ width: 100%;}
+.con{ text-align: center; font-size: 34rpx; color: #333;}
+.wrap{ padding: 30rpx 0 0;}
+.pic_15{ width: 200rpx;}

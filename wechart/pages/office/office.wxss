@@ -1,0 +1,5 @@
+/* pages/office/office.wxss */
+image{ width: 100%; margin-bottom: 20rpx;}
+.con{ font-size: 24rpx; color: #333; line-height: 36rpx; background-color: #fff;}
+.banText{ text-align: center; padding: 20rpx; font-size: 30rpx; font-weight: bold;}
+.text{ padding: 20rpx;}
